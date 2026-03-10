@@ -1,0 +1,52 @@
+body{
+
+background:#0b1020;
+color:#00e5ff;
+font-family:monospace;
+text-align:center;
+padding:40px;
+
+}
+
+.terminal{
+
+max-width:700px;
+margin:auto;
+border:1px solid #00e5ff;
+padding:40px;
+box-shadow:0 0 20px #00e5ff;
+
+}
+
+button{
+
+background:#ff7a18;
+border:none;
+padding:12px 24px;
+margin-top:20px;
+color:white;
+cursor:pointer;
+
+}
+
+button:hover{
+
+background:#ff9b42;
+
+}
+
+input{
+
+background:#0b1020;
+border:1px solid #00e5ff;
+color:white;
+padding:10px;
+margin-top:10px;
+
+}
+
+.hint{
+
+color:#2ecc71;
+
+}
