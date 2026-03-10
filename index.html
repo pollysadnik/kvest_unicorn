@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="UTF-8">
+<title>Investment Terminal</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="terminal">
+
+<h1 id="hack"></h1>
+
+<p>
+Доступ к системе венчурной аналитики получен.
+</p>
+
+<p>
+Файл: INVESTMENT_REPORT.lock
+</p>
+
+<p>
+Для открытия требуется пройти
+5 уровней анализа рынка.
+</p>
+
+<button onclick="location.href='level1.html'">
+Инициализировать анализ
+</button>
+
+</div>
+
+<script>
+
+const text="VENTURE ANALYTICS SYSTEM";
+
+const el=document.getElementById("hack");
+
+let letters="ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+
+let iteration=0;
+
+setInterval(()=>{
+
+el.innerText=text
+.split("")
+.map((letter,index)=>{
+
+if(index<iteration){
+return text[index];
+}
+
+return letters[Math.floor(Math.random()*26)];
+
+})
+.join("");
+
+iteration+=0.4;
+
+},30);
+
+</script>
+
+</body>
+</html>
