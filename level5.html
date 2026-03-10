@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="UTF-8">
+<title>Level 5</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="terminal">
+
+<h2>LEVEL 5 — Инвестиционный расчёт</h2>
+
+<p>
+EdTech-платформа имеет:
+</p>
+
+<ul>
+
+<li>100 000 пользователей</li>
+
+<li>подписка 800 рублей / месяц</li>
+
+</ul>
+
+<p>
+Определите месячную выручку.
+</p>
+
+<input id="answer">
+
+<br>
+
+<button onclick="check()">Рассчитать</button>
+
+<p id="result"></p>
+
+</div>
+
+<script>
+
+function check(){
+
+let a=document.getElementById("answer").value
+
+if(a==="80000000"){
+
+document.getElementById("result").innerHTML="✔ Финансовая модель подтверждена"
+
+setTimeout(()=>{
+
+window.location.href="final.html"
+
+},1500)
+
+}
+
+else{
+
+document.getElementById("result").innerHTML="Ошибка расчёта"
+
+}
+
+}
+
+</script>
+
+</body>
+
+</html>
