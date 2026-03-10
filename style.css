@@ -50,3 +50,47 @@ margin-top:10px;
 color:#2ecc71;
 
 }
+.map{
+
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:15px;
+margin-top:20px;
+
+}
+
+.region{
+
+padding:10px;
+background:#0b1020;
+border:1px solid #00e5ff;
+color:#00e5ff;
+cursor:pointer;
+
+}
+
+.chart{
+
+display:flex;
+justify-content:center;
+align-items:flex-end;
+gap:30px;
+margin:20px;
+
+}
+
+.bar{
+
+width:80px;
+background:#00e5ff;
+color:black;
+text-align:center;
+padding-top:10px;
+
+}
+
+.options button{
+
+margin:10px;
+
+}
